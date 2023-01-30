@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBEE660C29877F3C008B82A3 /* PopularCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE660B29877F3C008B82A3 /* PopularCard.swift */; };
+		BBEE660F29878440008B82A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE660E29878440008B82A3 /* HomeView.swift */; };
+		BBEE6612298784E6008B82A3 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE6611298784E6008B82A3 /* TabButton.swift */; };
+		BBEE661829879D06008B82A3 /* MyClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE661729879D06008B82A3 /* MyClassView.swift */; };
+		BBEE661A29879D3F008B82A3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE661929879D3F008B82A3 /* CartView.swift */; };
+		BBEE661C29879D76008B82A3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE661B29879D76008B82A3 /* NotificationView.swift */; };
+		BBEE661E29879D8A008B82A3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE661D29879D8A008B82A3 /* ProfileView.swift */; };
 		BBF688FE29826E1200FC6A93 /* AcourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF688FD29826E1200FC6A93 /* AcourseApp.swift */; };
 		BBF6890029826E1200FC6A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF688FF29826E1200FC6A93 /* ContentView.swift */; };
 		BBF6890229826E1500FC6A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF6890129826E1500FC6A93 /* Assets.xcassets */; };
 		BBF6890529826E1500FC6A93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF6890429826E1500FC6A93 /* Preview Assets.xcassets */; };
+		BBF6890E29826E5700FC6A93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6890D29826E5700FC6A93 /* MainView.swift */; };
+		BBF689112982712400FC6A93 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF689102982712300FC6A93 /* Extension.swift */; };
+		BBF68914298272B900FC6A93 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF68913298272B900FC6A93 /* ProgressBar.swift */; };
+		BBF6891729827D1100FC6A93 /* ProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6891629827D1100FC6A93 /* ProgressCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BBEE660B29877F3C008B82A3 /* PopularCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCard.swift; sourceTree = "<group>"; };
+		BBEE660E29878440008B82A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BBEE6611298784E6008B82A3 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		BBEE661729879D06008B82A3 /* MyClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassView.swift; sourceTree = "<group>"; };
+		BBEE661929879D3F008B82A3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BBEE661B29879D76008B82A3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		BBEE661D29879D8A008B82A3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BBEE661F2987A079008B82A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BBF688FA29826E1200FC6A93 /* Acourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF688FD29826E1200FC6A93 /* AcourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcourseApp.swift; sourceTree = "<group>"; };
 		BBF688FF29826E1200FC6A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBF6890129826E1500FC6A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBF6890429826E1500FC6A93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBF6890D29826E5700FC6A93 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BBF689102982712300FC6A93 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		BBF68913298272B900FC6A93 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		BBF6891629827D1100FC6A93 /* ProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBEE660D29878431008B82A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6891529827CFE00FC6A93 /* Components */,
+				BBEE660E29878440008B82A3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BBEE6610298784C8008B82A3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE6611298784E6008B82A3 /* TabButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BBEE661329879CBE008B82A3 /* MyClass */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE661729879D06008B82A3 /* MyClassView.swift */,
+			);
+			path = MyClass;
+			sourceTree = "<group>";
+		};
+		BBEE661429879CC5008B82A3 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE661929879D3F008B82A3 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		BBEE661529879CCD008B82A3 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE661B29879D76008B82A3 /* NotificationView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		BBEE661629879CD8008B82A3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE661D29879D8A008B82A3 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		BBF688F129826E1200FC6A93 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +123,11 @@
 		BBF688FC29826E1200FC6A93 /* Acourse */ = {
 			isa = PBXGroup;
 			children = (
+				BBEE661F2987A079008B82A3 /* Info.plist */,
+				BBF68912298272A900FC6A93 /* Components */,
+				BBF6890F2982711600FC6A93 /* Helpers */,
 				BBF688FD29826E1200FC6A93 /* AcourseApp.swift */,
-				BBF688FF29826E1200FC6A93 /* ContentView.swift */,
+				BBF6890B29826E2600FC6A93 /* View */,
 				BBF6890129826E1500FC6A93 /* Assets.xcassets */,
 				BBF6890329826E1500FC6A93 /* Preview Content */,
 			);
@@ -65,6 +140,54 @@
 				BBF6890429826E1500FC6A93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBF6890B29826E2600FC6A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6890C29826E4500FC6A93 /* Main */,
+				BBF688FF29826E1200FC6A93 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBF6890C29826E4500FC6A93 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE6610298784C8008B82A3 /* Components */,
+				BBEE660D29878431008B82A3 /* Home */,
+				BBEE661329879CBE008B82A3 /* MyClass */,
+				BBEE661429879CC5008B82A3 /* Cart */,
+				BBEE661529879CCD008B82A3 /* Notification */,
+				BBEE661629879CD8008B82A3 /* Profile */,
+				BBF6890D29826E5700FC6A93 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BBF6890F2982711600FC6A93 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BBF689102982712300FC6A93 /* Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BBF68912298272A900FC6A93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BBF68913298272B900FC6A93 /* ProgressBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BBF6891529827CFE00FC6A93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6891629827D1100FC6A93 /* ProgressCard.swift */,
+				BBEE660B29877F3C008B82A3 /* PopularCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEE6612298784E6008B82A3 /* TabButton.swift in Sources */,
+				BBEE661E29879D8A008B82A3 /* ProfileView.swift in Sources */,
+				BBEE660C29877F3C008B82A3 /* PopularCard.swift in Sources */,
 				BBF6890029826E1200FC6A93 /* ContentView.swift in Sources */,
+				BBF6890E29826E5700FC6A93 /* MainView.swift in Sources */,
+				BBEE661A29879D3F008B82A3 /* CartView.swift in Sources */,
+				BBF6891729827D1100FC6A93 /* ProgressCard.swift in Sources */,
 				BBF688FE29826E1200FC6A93 /* AcourseApp.swift in Sources */,
+				BBEE660F29878440008B82A3 /* HomeView.swift in Sources */,
+				BBF68914298272B900FC6A93 /* ProgressBar.swift in Sources */,
+				BBF689112982712400FC6A93 /* Extension.swift in Sources */,
+				BBEE661829879D06008B82A3 /* MyClassView.swift in Sources */,
+				BBEE661C29879D76008B82A3 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +404,14 @@
 				DEVELOPMENT_TEAM = 6JAJU283LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Acourse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +419,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantri.Acourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +439,14 @@
 				DEVELOPMENT_TEAM = 6JAJU283LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Acourse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +454,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantri.Acourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
