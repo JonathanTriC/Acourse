@@ -51,7 +51,7 @@ struct MainView: View {
                 .padding(.horizontal, 16)
                 .background(Color.white)
                 .clipShape(Capsule())
-                .padding(.horizontal, 25)
+//                .padding(.horizontal, 25)
                 .padding(.horizontal, 30)
             }
         }
