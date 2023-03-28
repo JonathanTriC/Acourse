@@ -21,11 +21,12 @@ struct TabButton: View {
                     .resizable()
                     .renderingMode(.template)
                     .frame(width: 24, height: 24)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("Header03"))
             }
             .padding(.vertical)
             .padding(.horizontal)
-            .background(Color.black.opacity(selected == title ? 0.05 : 0))
+//            .background(Color.black.opacity(selected == title ? 0.05 : 0))
+            .background(Color("BgCard").opacity(selected == title ? 1 : 0))
             .clipShape(Capsule())
         }
 

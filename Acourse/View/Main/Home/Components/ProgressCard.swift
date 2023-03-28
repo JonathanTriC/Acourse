@@ -16,60 +16,61 @@ struct ProgressCard: View {
     var classProgress: Int
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Image(classImg)
-                .resizable()
-                .frame(width: 220, height: 148)
-                .aspectRatio(16/9, contentMode: .fit)
-                .cornerRadius(24, corners: [.topLeft, .topRight])
-                .padding(.bottom, 6)
+        ZStack {
+            Color("BgCard").cornerRadius(24)
             
-            Text(classCategory)
-                .font(.system(size: 14))
-                .fontWeight(.medium)
-                .foregroundColor(.blue)
-                .padding(.horizontal, 24)
-                .padding(.bottom, 2)
-            
-            Text(classTitle)
-                .font(.headline)
-                .foregroundColor(.black)
-                .fontWeight(.bold).fixedSize(horizontal: false, vertical: true)
-                .multilineTextAlignment(.leading)
-                .lineLimit(2)
-                .padding(.horizontal, 24)
-                .padding(.bottom, 2)
-            
-            Text("\(classTaken) of \(classTotal) Lessons")
-                .font(.footnote)
-                .foregroundColor(.gray)
-                .padding(.horizontal, 24)
-                .padding(.bottom, 4)
-
-            
-            HStack{
-                ProgressBar(
-                    value: Double(classProgress),
-                    maxValue: 100,
-                    foregroundColor: .blue
-                )
-                .frame(height: 10)
+            VStack(alignment: .leading) {
+                Image(classImg)
+                    .resizable()
+                    .frame(width: 220, height: 160)
+                    .aspectRatio(16/9, contentMode: .fit)
+                    .cornerRadius(24, corners: [.topLeft, .topRight])
+                    .padding(.bottom, 6)
                 
-                Spacer()
-                
-                Text("\(classProgress)%")
-                    .font(.footnote)
-                    .foregroundColor(.black)
+                Text(classCategory)
+                    .font(.system(size: 14))
                     .fontWeight(.medium)
+                    .foregroundColor(.blue)
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 2)
+                
+                Text(classTitle)
+                    .font(.headline)
+                    .foregroundColor(Color("Header03"))
+                    .fontWeight(.bold).fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(2)
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 2)
+                
+                Text("\(classTaken) of \(classTotal) Lessons")
+                    .font(.footnote)
+                    .foregroundColor(Color("Grey01"))
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 4)
+                
+                
+                HStack{
+                    ProgressBar(
+                        value: Double(classProgress),
+                        maxValue: 100,
+                        backgroundColor: Color("ProgressBar"),
+                        foregroundColor: .blue
+                    )
+                    .frame(height: 10)
+                    
+                    Spacer()
+                    
+                    Text("\(classProgress)%")
+                        .font(.footnote)
+                        .foregroundColor(Color("Header03"))
+                        .fontWeight(.medium)
+                }
+                .padding(.horizontal, 24)
+                .padding(.bottom)
             }
-            .padding(.horizontal, 24)
-            .padding(.bottom)
+            .frame(maxWidth: 220)
         }
-        .background {
-            Color.white.cornerRadius(24)
-        }
-        .frame(maxWidth: 220)
-        .padding(.trailing)
     }
 }
 

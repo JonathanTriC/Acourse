@@ -9,60 +9,60 @@ import SwiftUI
 
 struct PopularCard: View {
     var body: some View {
-        HStack(alignment: .center) {
-            Image("classBanner")
-                .resizable()
-                .frame(width: 158, height: 169)
-                .scaledToFill()
-                .cornerRadius(24, corners: [.topLeft, .bottomLeft])
+        ZStack {
+            Color("BgCard").cornerRadius(24)
             
-            VStack(alignment: .leading) {
-                Text("Design")
-                    .font(.system(size: 14))
-                    .fontWeight(.medium)
-                    .foregroundColor(.blue)
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 2)
+            HStack(alignment: .center) {
+                Image("classBanner")
+                    .resizable()
+                    .frame(width: 158, height: 169)
+                    .scaledToFit()
+                    .cornerRadius(24, corners: [.topLeft, .bottomLeft])
                 
-                Text("UX Design: Design Thinking")
-                    .font(.headline)
-                    .foregroundColor(.black)
-                    .fontWeight(.bold).fixedSize(horizontal: false, vertical: true)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(2)
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 2)
-                
-                Text("1h 43m • 10 Lessons")
-                    .font(.footnote)
-                    .foregroundColor(.gray)
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 2)
-                
-                HStack {
-                    Text("Rp")
-                        .font(.footnote)
-                        .baselineOffset(6.0)
-                        .foregroundColor(.blue)
-                    
-                    Text("100.000")
-                        .font(.callout)
+                VStack(alignment: .leading) {
+                    Text("Design")
+                        .font(.system(size: 14))
                         .fontWeight(.medium)
                         .foregroundColor(.blue)
+                        .padding(.horizontal, 24)
+                        .padding(.bottom, 2)
                     
-                    Spacer()
+                    Text("UX Design: Design Thinking")
+                        .font(.headline)
+                        .foregroundColor(Color("Header03"))
+                        .fontWeight(.bold).fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(2)
+                        .padding(.horizontal, 24)
+                        .padding(.bottom, 2)
                     
-                    Image(systemName: "bookmark")
-                        .foregroundColor(.gray)
+                    Text("1h 43m • 10 Lessons")
+                        .font(.footnote)
+                        .foregroundColor(Color("Grey01"))
+                        .padding(.horizontal, 24)
+                        .padding(.bottom, 2)
+                    
+                    HStack {
+                        Text("Rp")
+                            .font(.footnote)
+                            .baselineOffset(6.0)
+                            .foregroundColor(.blue)
+                        
+                        Text("100.000")
+                            .font(.callout)
+                            .fontWeight(.medium)
+                            .foregroundColor(.blue)
+                        
+                        Spacer()
+                        
+                        Image(systemName: "bookmark")
+                            .foregroundColor(Color("Grey01"))
+                    }
+                    .padding(.horizontal, 24)
                 }
-                .padding(.horizontal, 24)
             }
+            .frame(maxWidth: .infinity)
         }
-        .background {
-            Color.white.cornerRadius(24)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.bottom)
     }
 }
 

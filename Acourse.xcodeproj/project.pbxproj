@@ -74,7 +74,6 @@
 				7DF78BC4B1243E5391DA1CDF /* Pods-Acourse.debug.xcconfig */,
 				0C4FE67D4E3DCDF676301E60 /* Pods-Acourse.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,7 +150,6 @@
 				BBEE661F2987A079008B82A3 /* Info.plist */,
 				BBF68912298272A900FC6A93 /* Components */,
 				BBF6890F2982711600FC6A93 /* Helpers */,
-				BBF688FD29826E1200FC6A93 /* AcourseApp.swift */,
 				BBF6890B29826E2600FC6A93 /* View */,
 				BBF6890129826E1500FC6A93 /* Assets.xcassets */,
 				BBF6890329826E1500FC6A93 /* Preview Content */,
@@ -172,6 +170,7 @@
 			children = (
 				BBF6890C29826E4500FC6A93 /* Main */,
 				BBF688FF29826E1200FC6A93 /* ContentView.swift */,
+				BBF688FD29826E1200FC6A93 /* AcourseApp.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -463,7 +462,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +498,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

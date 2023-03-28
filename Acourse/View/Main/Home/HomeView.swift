@@ -24,11 +24,11 @@ struct HomeView: View {
                         VStack(alignment: .leading){
                             Text("Welcome Back,")
                                 .font(.footnote)
-                                .foregroundColor(.gray)
+                                .foregroundColor(Color("Title03Regular"))
                             Text("Jonathan Tri")
                                 .font(.title3)
                                 .fontWeight(.medium)
-                                .foregroundColor(.black)
+                                .foregroundColor(Color("Header03"))
                         }
                         
                         Spacer()
@@ -36,7 +36,7 @@ struct HomeView: View {
                         Image(systemName: "magnifyingglass")
                             .resizable()
                             .frame(width: 24, height: 24)
-                            .foregroundColor(.black)
+                            .foregroundColor(Color("Header03"))
                             .onTapGesture {
                                 print("click search")
                             }
@@ -48,7 +48,7 @@ struct HomeView: View {
                             Text("Your Progress")
                                 .font(.title2)
                                 .fontWeight(.medium)
-                                .foregroundColor(.black)
+                                .foregroundColor(Color("Header03"))
                             Spacer()
                             Text("See All")
                                 .font(.subheadline)
@@ -61,7 +61,7 @@ struct HomeView: View {
                         .padding(.bottom)
                         
                         ScrollView(.horizontal, showsIndicators: false) {
-                            HStack {
+                            HStack(spacing: 16) {
                                 ProgressCard(
                                     classImg: "classBanner",
                                     classCategory: "Design",
@@ -97,7 +97,7 @@ struct HomeView: View {
                             Text("Popular Class")
                                 .font(.title2)
                                 .fontWeight(.medium)
-                                .foregroundColor(.black)
+                                .foregroundColor(Color("Header03"))
                             Spacer()
                             Text("See All")
                                 .font(.subheadline)
@@ -111,7 +111,7 @@ struct HomeView: View {
                         
                         
                         ScrollView(.vertical, showsIndicators: false) {
-                            VStack {
+                            VStack(spacing: 16) {
                                 PopularCard()
                                 PopularCard()
                                 PopularCard()
