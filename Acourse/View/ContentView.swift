@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     init() {
         UITabBar.appearance().isHidden = true
+        print("Current Variant is: \(Env().configure(InfoPlistKey.variants))")
     }
     
     var body: some View {

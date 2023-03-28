@@ -7,4 +7,5 @@ target 'Acourse' do
 
   # Pods for Acourse
 
+  pod 'SDWebImage'
 end
