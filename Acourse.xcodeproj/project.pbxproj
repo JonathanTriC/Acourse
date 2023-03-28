@@ -443,7 +443,7 @@
 			baseConfigurationReference = 46B4EBE33B48D073ED3C23FD /* Pods-Acourse.dev debug.xcconfig */;
 			buildSettings = {
 				APP_DISPLAY_NAME = "Acourse Dev";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -792,7 +792,7 @@
 			baseConfigurationReference = 7DF78BC4B1243E5391DA1CDF /* Pods-Acourse.debug.xcconfig */;
 			buildSettings = {
 				APP_DISPLAY_NAME = "Acourse Debug";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -831,7 +831,7 @@
 			baseConfigurationReference = C91978ABEC4DECD5575F1F13 /* Pods-Acourse.dev release.xcconfig */;
 			buildSettings = {
 				APP_DISPLAY_NAME = "Acourse Dev";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
